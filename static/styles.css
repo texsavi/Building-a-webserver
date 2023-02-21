@@ -1,0 +1,87 @@
+body{
+  padding: 100px;
+  background-image:url("static/img/build.jpg") ;
+  background-size:720px;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 400px auto;
+  transition: 40ms;
+  
+  
+  
+}
+
+h1,me{
+  display: flex;
+  padding: 10px;
+  scroll-padding-top: 40px;
+  justify-content: center;
+  box-flex: 2px 3px;
+  text-decoration-thickness: 1;
+  animation: mymove 5s infinite;
+  color: #0ee1b7
+  
+}
+
+.me{
+    border: 0px  #78e8f7;
+    animation:mymove 5s infinite;
+  border-radius: 100px;
+  border-color:  #78e8f7;
+ 
+    }
+
+.pninja{
+  padding: 5px 10px;
+  display:flex;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.intro{
+  display: flex;
+  animation:alternate;
+  text-overflow: ellipsis;
+  text-indent: 50px;
+  text-align: center;
+  color: #05d9f5 ;
+}
+
+.git,.twitter,.medium,.linkedin,.replit{
+  padding:5px 10px;
+  display: flex;
+  justify-content: center;
+  border-style: groove;
+  
+}
+
+@keyframes mymove {
+ 45% {text-indent: 170px;}
+}
+
+.replwrd,.medwrd,.linkwrd,.twitwrd,.gitwrd,.replp,.medp,.linkp,.gitp{
+  text-align: center;
+  color:#05d9f5 ;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+  
+  
+}
+
+.email{
+  
+   text-align: center;
+  
+}
+
+.mail{
+  display: flex;
+  text-align: center;
+  padding: 1px 5px;
+
+  margin-top: auto;
+  justify-content: center;
+}

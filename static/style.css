@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #35edd8
+}
+
+h4,h3,h2,h1{font-family: monospace, sans-serif, Geneva;
+  font-size: 18px;
+  color: #092358;
+ 
+  text-align: left;
+  text-orientation: upright;
+  }
+
+
+
+p{
+  font-family:monospace, geneva, sans-serif;
+  font-size: 14px;
+  color:#010213;
+  text-align: left;
+}
+
+
+div{
+ text-align:center
+}
+
+h2{
+  text-align: center;
+  font-size: 16px;
+  background-color:#e3eff2;
+  
+}
+
+h5{
+   font-family:monospace, geneva, sans-serif;
+  font-size: 16px;
+  color:#010213;
+}
+
+p{font-size: 14px;
+ font-family:  monospace, sans-serif, Geneva ;
+ color: #02050d;
+ text-align: left;
+
+ }
+
+
+
+
+
+.intro{font-family: monospace, geneva, sans-serif;
+       color: #060113;
+       font-size: 14px;
+  
+}
+
+.list{font-family: monospace, geneva, sans-serif;
+       color:#060113;
+       font-size: 14px;
+  
+  
+}
+
+.bye{
+  grid-area: 2/1/2/4;
+  padding: 5px 10px;
+  text-align: center;
+  font-family: monospace, geneva, sans-serif;
+     color: #00080f;
+     font-size: 12px;
+    background-color: #a8b5b8 
+     
+    
+    }
+
+.pizza{font-family: monospace, geneva, sans-serif;
+       color:  #060113;
+       font-size: 14px;
+    }
+
+.list0{font-family: monospace, geneva, sans-serif;
+       color: #1c505e;
+       font-size: 14px;
+    }
+
+.color{font-family: monospace, geneva, sans-serif;
+       color:  #060113;
+       font-size: 14px;
+    }
+
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0413e7,
+      0 0 82px #0413e7,
+      0 0 92px #0413e7,
+      0 0 102px #0413e7,
+      0 0 151px #0413e7;
+}
+
+/* Additional styling */
+  
+
+
+  
+h1 {
+    font-size: 2.2rem;
+}
+  
+h2 {
+    font-size: 0.8rem;
+}
+
+.pizza {
+  margin-bottom: 2vh;
+}
+
+h4,h3,h2,h1{
+  animation: flicker 1.8s infinite alternate;
+  color: #0413e7
+  
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #1809f1,
+      0 0 80px#0413e7,
+      0 0 90px #0413e7,
+      0 0 100px #0413e7,
+      0 0 150px #0413e7;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
